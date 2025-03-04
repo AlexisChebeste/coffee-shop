@@ -4,6 +4,7 @@ import Favorites from "./components/Favorites"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Event from "./components/Event"
+import Schedules from "./components/Schedules"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Favorites />
       <Curiosity />
       <Event />
+      <Schedules />
     </main>
   )
 }
