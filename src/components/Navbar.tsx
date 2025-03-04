@@ -16,7 +16,7 @@ export default function Navbar() {
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  `px-2 font-bold border-b-2 ${isActive ? 'border-b-stone-700' : 'border-b-transparent'}`
+                  `px-2  border-b-2 ${isActive ? 'border-b-stone-700 font-bold' : 'border-b-transparent'}`
                 }
               >
                 Inicio
@@ -24,7 +24,7 @@ export default function Navbar() {
               <NavLink
                 to="/menu"
                 className={({ isActive }) =>
-                  `px-2 font-bold border-b-2 ${isActive ? 'border-b-stone-700' : 'border-b-transparent'}`
+                  `px-2  border-b-2 ${isActive ? 'border-b-stone-700 font-bold' : 'border-b-transparent'}`
                 }
               >
                 Menú
@@ -32,7 +32,7 @@ export default function Navbar() {
               <NavLink
                 to="/gallery"
                 className={({ isActive }) =>
-                  `px-2 font-bold border-b-2 ${isActive ? 'border-b-stone-700' : 'border-b-transparent'}`
+                  `px-2  border-b-2 ${isActive ? 'border-b-stone-700 font-bold' : 'border-b-transparent'}`
                 }
               >
                 Galería
