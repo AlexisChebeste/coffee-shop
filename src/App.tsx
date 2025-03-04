@@ -5,6 +5,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Event from "./components/Event"
 import Schedules from "./components/Schedules"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Curiosity />
       <Event />
       <Schedules />
+      <Footer />
     </main>
   )
 }
