@@ -28,6 +28,7 @@ export default function Favorites() {
                     src={images[currentIndex].src}
                     alt="Carousel"
                     className="w-80 h-64 object-cover rounded-xs"
+                    loading='lazy'
                     />
                     {/* Botones de navegación */}
                     <div className="flex justify-center mt-2 space-x-2">
@@ -52,6 +53,7 @@ export default function Favorites() {
                         src={image.src}
                         alt="Gallery"
                         className="w-80 h-72 object-cover rounded-xs"
+                        loading='lazy'
                         />
                         <p className="text-center my-4 text-xl">{image.text}</p>
                     </div>

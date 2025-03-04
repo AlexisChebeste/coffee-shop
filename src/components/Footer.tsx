@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="bg-secondary py-4 mt-20">
             <div className="mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center gap-8 px-4">
                 <div className="flex flex-col md:flex-row items-center gap-4 mt-4 md:mt-0">
-                    <img src={rama} alt="Logo" className="size-12 md:size-9" />
+                    <img src={rama} alt="Logo" className="size-12 md:size-9" loading='lazy'/>
                     <h3 className="text-2xl">COFFE SHOP</h3>
                 </div>
                 <div className="flex flex-col gap-4 list-none text-center md:hidden text-xl">

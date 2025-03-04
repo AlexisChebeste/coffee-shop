@@ -1,8 +1,9 @@
 import Schedules from "../components/Home/Schedules";
 import Card from "../components/Menu/Card";
 import logo from "../assets/coffee-logo.svg";
-import {cafeMenu, drinksMenu, saltyFootMenu, infusionsMenu1, infusionsMenu2} from "../utility/dataMenu";
+import {cafeMenu, drinksMenu, saltyFootMenu} from "../utility/dataMenu";
 import MenuPrice from "../components/Menu/MenuPrice";
+import InfusionsMenu from "../components/Menu/InfusionsMenu";
 
 
 export default function Menu() {
@@ -22,19 +23,7 @@ export default function Menu() {
                 <MenuPrice list={drinksMenu}/>
             </Card>
             <Card title="Infusiones " subtitle="(o té de bolsita)" >
-                <div className="flex flex-col items-start w-full gap-4">
-                    {infusionsMenu1.map((item, index) => (
-                        <p key={index} className="text-xl font-medium">{item}</p>
-                    ))}
-                </div>
-                <div className="flex flex-col items-end w-full ">
-                    <div className="flex flex-col items-start  gap-4">
-                        {infusionsMenu2.map((item, index) => (
-                            <p key={index} className="text-xl font-medium">{item}</p>
-                        ))}
-                    </div>
-                    
-                </div>
+                <InfusionsMenu />
             </Card>
             <Card title="Alimento salados" >
                 <MenuPrice list={saltyFootMenu}/>
