@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar"
 import Event from "./components/Event"
 import Schedules from "./components/Schedules"
 import Footer from "./components/Footer"
+import Galery from "./components/Galery"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Favorites />
       <Curiosity />
       <Event />
+      <Galery />
       <Schedules />
       <Footer />
     </main>
