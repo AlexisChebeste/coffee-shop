@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import rama from "../assets/Vector.svg"
 import {Icon} from "@iconify/react"
 
@@ -9,28 +10,17 @@ export default function Footer() {
                     <img src={rama} alt="Logo" className="size-12 md:size-9" />
                     <h3 className="text-2xl">COFFE SHOP</h3>
                 </div>
-                <ul className="flex flex-col gap-4 list-none text-center md:hidden text-xl">
-                    <li>
-                        <a href="#inicio">
-                            Inicio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about">
-                            Sobre nosotros
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#galery">
-                            Galería
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#events">
-                            Eventos
-                        </a>
-                    </li>
-                </ul>
+                <div className="flex flex-col gap-4 list-none text-center md:hidden text-xl">
+                    <Link to="/">
+                        Inicio
+                    </Link>
+                    <Link to="/menu">
+                        Menú
+                    </Link>
+                    <Link to="/gallery">
+                        Galería
+                    </Link>
+                </div>
                 <div className="flex items-center gap-4">
                     <Icon icon="fa-brands:facebook" className="size-8 text-tertiary cursor-pointer" />
                     <Icon icon="fa-brands:instagram" className="size-8 text-tertiary cursor-pointer" />
