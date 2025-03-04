@@ -6,7 +6,7 @@ import galery4 from '../assets/galery/galeria4.webp'
 export default function Galery() {
 
     return(
-        <section className="max-w-6xl mx-auto px-4 py-8">
+        <section className="max-w-6xl mx-auto px-4 py-8" id='galery'>
             <h2 className="text-3xl  font-medium  text-center">Galería</h2>
             <div className="grid md:grid-cols-3 md:grid-rows-2 gap-4 mt-8  md:max-h-[800px]">
                 <div className='col-span-2 w-full h-full'>

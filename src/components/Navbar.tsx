@@ -7,7 +7,7 @@ export default function Navbar() {
     const navs = ['Inicio', 'Menú', 'Galería']
     
     return(
-        <header className='flex flex-col items-center justify-center '>
+      <header className='flex flex-col items-center justify-center ' id='inicio'>
         <img 
           src={coffeLogo} 
           alt="coffee logo" 

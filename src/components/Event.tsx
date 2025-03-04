@@ -4,7 +4,7 @@ import evento2 from '../assets/evento2.png'
 export default function Event() {
 
     return(
-        <section className=" flex flex-col items-center justify-center">
+        <section className=" flex flex-col items-center justify-center" id='events'>
             <div className="relative h-16 w-60 flex items-center justify-center z-20">
                 <h2 className="text-3xl font-medium ">Eventos</h2>
                 <div className="absolute bottom-0 left-0 bg-secondary w-full h-8 -z-10"></div>
