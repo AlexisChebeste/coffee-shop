@@ -3,8 +3,8 @@ import {Icon} from "@iconify/react"
 
 export default function Footer() {
     return (
-        <footer className="bg-secondary py-4 ">
-            <div className="mx-auto max-w-6xl flex justify-between items-center">
+        <footer className="bg-secondary py-4 mt-20">
+            <div className="mx-auto max-w-6xl flex flex-col md:flex-row justify-between items-center">
                 <div className="flex items-center gap-4">
                     <img src={rama} alt="Logo" className="size-9" />
                     <h3 className="text-2xl">COFFE SHOP</h3>
